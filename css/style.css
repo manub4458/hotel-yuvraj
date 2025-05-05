@@ -395,9 +395,19 @@ ul, ol {
 	padding: 13px 0;
 }
 
-@media (max-width: 520px){
+/* @media (max-width: 530px){
     .logo img{
-		width: 270px;
+		width: 150px;
+	}
+
+	.menu-item .logo{
+		padding: 16px;
+	}
+} */
+
+@media (max-width: 331px){
+    .logo img{
+		width: 200px;
 	}
 
 	.menu-item .logo{
@@ -1112,23 +1122,22 @@ ul, ol {
 .video-section {
 	height: 500px;
 	padding-top: 140px;
+	text-align: center;
 }
 .video-section .video-text {
 	text-align: center;
 }
 .video-section .video-text h2 {
-	font-size: 48px;
+	font-size: 56px;
 	color: #ffffff;
 	margin-bottom: 16px;
 }
 .video-section .video-text p {
-	font-size: 20px;
+	font-size: 24px;
 	color: #ffffff;
-	margin-bottom: 40px;
+	
 }
-.video-section .video-text .play-btn {
-	display: inline-block;
-}
+
 /*---------------------
   Gallery Section
 -----------------------*/
@@ -2402,10 +2411,23 @@ ul, ol {
 		bottom: 80px;
 	}
 }
+
+
+
+
+
 @media only screen and (max-width: 991px) {
 	.top-nav {
 		display: none;
 	}
+	.logo img{
+		width: 450px;
+	}
+
+	.menu-item .logo{
+		padding: 16px;
+	}
+
 	.menu-item .nav-menu {
 		display: none;
 	}
@@ -2427,7 +2449,7 @@ ul, ol {
 	}
 	.canvas-open {
 		position: absolute;
-		right: 40px;
+		right: 20px;
 		top: 25px;
 		font-size: 22px;
 		width: 30px;
@@ -2681,6 +2703,9 @@ ul, ol {
 	.testimonial-slider.owl-carousel .owl-nav {
 		display: none;
 	}
+	.logo img{
+		width: 350px;
+	}
 	.room-details-item .rd-text .rd-title {
 		margin-bottom: 25px;
 	}
@@ -2718,6 +2743,9 @@ ul, ol {
 @media only screen and (max-width: 479px) {
 	.footer-section .copyright-option ul li {
 		margin-bottom: 5px;
+	}
+	.logo img{
+		width: 210px;
 	}
 	.video-section {
 		padding-top: 80px;
@@ -2759,7 +2787,26 @@ ul, ol {
 		padding-bottom: 50px;
 	}
 }
-
+@media only screen and (max-width: 300px){
+.logo img{
+	width: 150px;
+}
+.canvas-open{
+	position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+        color: #19191a;
+        border: 1px solid #19191a;
+        border-radius: 2px;
+        line-height: 29px;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        cursor: pointer;
+}
 .me{
 	background-position: center;
 }
